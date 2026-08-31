@@ -5,26 +5,26 @@ class Gore < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.77/gore-0.1.77-darwin-arm64.tar.gz"
-      sha256 "3305500882d6c640acc2bb3b4d00e2cf2e05a95e25c457c4e9c3750fbd945467"
+      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.95/gore-0.1.95-darwin-arm64.tar.gz"
+      sha256 "1710b14e3be5098b0c58676c0b565a944ed2600e33e081a3bad2444768e9359f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.77/gore-0.1.77-linux-amd64.tar.gz"
-      sha256 "6bd775d4aa0ca86cbeb9d866e2002d62fd7d2beb02fb1f21a6071453eaaedf5f"
+      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.95/gore-0.1.95-linux-amd64.tar.gz"
+      sha256 "cd2e03c664dd4ea3a00cd328414d6d5960cc04a306321d81972f706c26c87bf0"
     end
 
     on_arm do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.77/gore-0.1.77-linux-arm64.tar.gz"
-      sha256 "8914cef14a309880b4b0135aa77676b78ff210e616e8acb2d620194ea72b5b99"
+      url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.95/gore-0.1.95-linux-arm64.tar.gz"
+      sha256 "43007f413e838bc005499f877ae17dfcd2e4d631de62e72351ff0470abdc7d03"
     end
   end
 
   resource "prm" do
-    url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.77/gore-prm.pdf"
-    sha256 "a7b3354435cff60af7190037a6e27a042f6d816d9ca0a36fca8de6103d821066"
+    url "https://github.com/dsbitor/gore-releases/releases/download/v0.1.95/gore-prm.pdf"
+    sha256 "25a4517a9657c2d5d1edd0a58682d4d2da990897d0480aedeecf123a3a306f25"
   end
 
   def install
