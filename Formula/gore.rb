@@ -4,26 +4,26 @@ class Gore < Formula
   license :cannot_represent
 
   on_macos do
-    url "https://github.com/dsbitor/gore-releases/releases/download/v0.2.112/gore-0.2.112-darwin-arm64.tar.gz"
-    sha256 "61db42e06d0949740f2b97c026b81ba3f3ce11a82af36f1fc919534cd6e9b443"
+    url "https://github.com/dsbitor/gore-releases/releases/download/v0.3.114/gore-0.3.114-darwin-arm64.tar.gz"
+    sha256 "158de65d6fd9fbd18125a64f53aca42bde22ea0ab9ee07e802e786c170c1233d"
     depends_on arch: :arm64
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.2.112/gore-0.2.112-linux-amd64.tar.gz"
-      sha256 "6e3e616449c5c89ce9489697820bba7894685e10497d31e64e32e8891b33792c"
+      url "https://github.com/dsbitor/gore-releases/releases/download/v0.3.114/gore-0.3.114-linux-amd64.tar.gz"
+      sha256 "ed4ac21b07aa172df6fe125416c826513b37ffda475d39abbcd89384dbf38579"
     end
 
     on_arm do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.2.112/gore-0.2.112-linux-arm64.tar.gz"
-      sha256 "299185cd27350e3a7b85075b489c339b6f4e3ae6f5e36747513830159a5d3f93"
+      url "https://github.com/dsbitor/gore-releases/releases/download/v0.3.114/gore-0.3.114-linux-arm64.tar.gz"
+      sha256 "ba8a4600f090a900e342e944a4ee9b54573b70d869975919f3be8af749e6067b"
     end
   end
 
   resource "prm" do
-    url "https://github.com/dsbitor/gore-releases/releases/download/v0.2.112/gore-prm.pdf"
-    sha256 "69f1697443f03c9c82f3f228a23f362ef61c5e24ae369807b2018c59639163a1"
+    url "https://github.com/dsbitor/gore-releases/releases/download/v0.3.114/gore-prm.pdf"
+    sha256 "818c0bee144f52c5acd8f471d5ed9adf250e2c2657344551247ea67185a04e0d"
   end
 
   def install
