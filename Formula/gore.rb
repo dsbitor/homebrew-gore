@@ -4,11 +4,8 @@ class Gore < Formula
   license :cannot_represent
 
   on_macos do
-    on_arm do
-      url "https://github.com/dsbitor/gore-releases/releases/download/v0.4.133/gore-0.4.133-darwin-arm64.tar.gz"
-      sha256 "a861df9a6f0e9ead189b8dc53911fe78629ae805410d84d19ca3c9ea57025b68"
-    end
-
+    url "https://github.com/dsbitor/gore-releases/releases/download/v0.4.133/gore-0.4.133-darwin-arm64.tar.gz"
+    sha256 "a861df9a6f0e9ead189b8dc53911fe78629ae805410d84d19ca3c9ea57025b68"
     depends_on arch: :arm64
   end
 
